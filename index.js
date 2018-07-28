@@ -12,7 +12,7 @@ function nowServing(){
     return "There is nobody waiting to be served!"
   else {
     return ("Currently serving: " + katzDeliLine.shift());
-  
+
   }
 
 }
@@ -24,7 +24,7 @@ function currentLine(array){
     var x =0;
     var string = "The line is currently: ";
     while(x<katzDeliLine.length){
-    
+
       x++
         string += x  + katzDeliLine[x];
     }
