@@ -28,6 +28,6 @@ function currentLine(katzDeliLine){
       x++
         string += x + ". "  + katzDeliLine[x-1] + ", ";
     }
-    return string.substr(1,string.length - 2);
+    return string.substr(0,string.length - 2);
   }
 }
