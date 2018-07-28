@@ -28,6 +28,6 @@ function currentLine(katzDeliLine){
       x++
         string += x + ". "  + katzDeliLine[x-1] + ", ";
     }
-    return string.shift();
+    return string.pop();
   }
 }
