@@ -26,7 +26,7 @@ function currentLine(katzDeliLine){
     while(x<katzDeliLine.length){
 
       x++
-        string += x + ". "  + katzDeliLine[x] + ",";
+        string += x + ". "  + katzDeliLine[x] + ", ";
     }
     return string;
   }
